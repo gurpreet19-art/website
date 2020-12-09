@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Cheatsheet | Gurpreet Kaur | My Personal Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header class="gs-header inner">
+    <div class="container">
+      <div class="gs-header-wrap">
+        <a href="index.html" class="gs-logo"><img src="logo.png" alt="gurpreet kaur" height="50"></a>
+        <ul class="gs-nav">
+          <li ><a href="index.html">My Resume</a></li>
+          <li class="active"><a href="html.html">HTML</a></li>
+          <li><a href="css.html">CSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <article class="gs-resume gs-section gs-section-csheet">
+    <div class="container">
+      <div class="gs-csheet-con">
+        <h1>Hypertext Markup Language (HTML</h1>
+        <ul class="gs-csheet">
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;!DOCTYPE&gt;</h2>
+              <p>All HTML documents must start with a <!DOCTYPE> declaration.
+                The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+                In HTML 5, the declaration is simple:</p>
+            </div>
+            <code>
+              &lt;!DOCTYPE html&gt;
+            </code>
+
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;a&gt;&lt;/a&gt;</h2>
+              <p>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.
+
+                The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.</p>
+            </div>
+            <code>
+              &lt;a href=&quot;https://www.w3schools.com&quot;&gt;Visit W3Schools.com!&lt;/a&gt;
+            </code>
+          </li>
+          <li>
+
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;b&gt;&lt;/b&gt;</h2>
+              <p>The &lt;b&gt; tag specifies bold text without any extra importance.</p>
+            </div>
+            <code>
+              &lt;p&gt;This is normal text - &lt;b&gt;and this is bold text&lt;/b&gt;.&lt;/p&gt;
+            </code>
+          </li>
+          <li>
+          
+
+&lt;aside&gt;<br />
+&lt;h4&gt;Epcot Center&lt;/h4&gt;<br />
+&lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;<br />
+&lt;/aside&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;body&gt;&lt;/body&gt;</h2>
+              <p>The &lt;body&gt; tag defines the document's body.
+
+                The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+            </div>
+            <code>
+              &lt;html&gt;<br />
+&lt;head&gt;<br />
+&nbsp;&nbsp;&lt;title&gt;Title of the document&lt;/title&gt;<br />
+&lt;/head&gt;<br />
+<br />
+&lt;body&gt;<br />
+&nbsp;&nbsp;&lt;h1&gt;This is a heading&lt;/h1&gt;<br />
+&nbsp;&nbsp;&lt;p&gt;This is a paragraph.&lt;/p&gt;<br />
+&lt;/body&gt;<br />
+<br />
+&lt;/html&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;br&gt;</h2>
+              <p>The &lt;br&gt; tag inserts a single line break.
+
+                The &lt;br&gt; tag is useful for writing addresses or poems.
+
+               The &lt;br&gt; tag is an empty tag which means that it has no end tag.
+
+               </p>
+
+            </div>
+            <code>
+              &lt;p&gt;To force&lt;br&gt; line breaks&lt;br&gt; in a text,&lt;br&gt; use the br&lt;br&gt; element.&lt;/p&gt;
+             </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;h1&gt; - &lt;h6&gt;</h2>
+              <p>The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.
+                &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.
+                <br><b>Note:</b> Only use one &lt;h1&gt; per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels - start with &lt;h1&gt;, then use &lt;h2&gt;, and so on.</p>
+            </div>
+            <code>
+              &lt;h1&gt;This is heading 1&lt;/h1&gt;<br />
+&lt;h2&gt;This is heading 2&lt;/h2&gt;<br />
+&lt;h3&gt;This is heading 3&lt;/h3&gt;<br />
+&lt;h4&gt;This is heading 4&lt;/h4&gt;<br />
+&lt;h5&gt;This is heading 5&lt;/h5&gt;<br />
+&lt;h6&gt;This is heading 6&lt;/h6&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;html&gt;&lt;/html&gt;</h2>
+              <p>The &lt;html&gt; tag represents the root of an HTML document.
+
+                The &lt;html&gt; tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).</p>
+            </div>
+            <code>&lt;html lang=&quot;en&quot;&gt;&lt;/html&gt;</code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;li&gt;&lt;/li&gt;</h2>
+              <p>The &lt;li&gt; tag defines a list item.
+
+                The &lt;li&gt; tag is used inside ordered lists(&lt;ol&gt;), unordered lists (&lt;ul&gt;), and in menu lists (&lt;menu&gt;).
+
+                In &lt;ul&gt; and &lt;menu&gt;, the list items will usually be displayed with bullet points.
+
+                In &lt;ol&gt;, the list items will usually be displayed with numbers or letters.</p>
+            </div>
+            <code>
+              &lt;ol&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Coffee&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Tea&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Milk&lt;/li&gt;<br />
+&lt;/ol&gt;<br />
+<br />
+&lt;ul&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Coffee&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Tea&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li&gt;Milk&lt;/li&gt;<br />
+&lt;/ul&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;link&gt;&lt;/link&gt;</h2>
+              <p>The &lt;link&gt; tag defines the relationship between the current document and an external resource.
+
+                The &lt;link&gt; tag is most often used to link to external style sheets.
+
+                The &lt;link&gt; element is an empty element, it contains attributes only.</p>
+            </div>
+            <code>
+              &lt;head&gt;<br />
+&nbsp;&nbsp;&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;<br />
+&lt;/head&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;meta&gt;</h2>
+              <p>The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+                &lt;meta&gt; tags always go inside the &lt;head&gt; element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+                Metadata will not be displayed on the page, but is machine parsable.
+
+                Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.</p>
+            </div>
+            <code>
+              &lt;head&gt;<br />
+&nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;<br />
+&nbsp;&nbsp;&lt;meta name=&quot;description&quot; content=&quot;Free Web tutorials&quot;&gt;<br />
+&nbsp;&nbsp;&lt;meta name=&quot;keywords&quot; content=&quot;HTML, CSS, JavaScript&quot;&gt;<br />
+&nbsp;&nbsp;&lt;meta name=&quot;author&quot; content=&quot;John Doe&quot;&gt;<br />
+&nbsp;&nbsp;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
+&lt;/head&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;nav&gt;&lt;/nav&gt;</h2>
+              <p>The &lt;nav&gt; tag defines a set of navigation links.
+
+                Notice that NOT all links of a document should be inside a &lt;nav&gt; element. The &lt;nav&gt; element is intended only for major block of navigation links.
+
+                Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.</p>
+            </div>
+            <code>
+              &lt;nav&gt;<br />
+&nbsp;&nbsp;&lt;a href=&quot;/html/&quot;&gt;HTML&lt;/a&gt; |<br />
+&nbsp;&nbsp;&lt;a href=&quot;/css/&quot;&gt;CSS&lt;/a&gt; |<br />
+&nbsp;&nbsp;&lt;a href=&quot;/js/&quot;&gt;JavaScript&lt;/a&gt; |<br />
+&nbsp;&nbsp;&lt;a href=&quot;/python/&quot;&gt;Python&lt;/a&gt;<br />
+&lt;/nav&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;p&gt;&lt;/p&gt;</h2>
+              <p>	The &lt;p&g; tag defines a paragraph.
+
+                Browsers automatically add a single blank line before and after each <p> element.</p>
+            </div>
+            <code>&lt;p&gt;This is some text in a paragraph.&lt;/p&gt;</code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;section&gt;&lt;/section&gt;</h2>
+              <p>	The &lt;section&gt; tag defines a section in a document.</p>
+            </div>
+            <code>
+              &lt;section&gt;<br />
+&lt;h2&gt;WWF History&lt;/h2&gt;<br />
+&lt;p&gt;The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.&lt;/p&gt;<br />
+&lt;/section&gt;<br />
+<br />
+&lt;section&gt;<br />
+&lt;h2&gt;WWF's Symbol&lt;/h2&gt;<br />
+&lt;p&gt;The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.&lt;/p&gt;<br />
+&lt;/section&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;span&gt;&lt;/span&gt;</h2>
+              <p>	The &lt;span&gt; tag is an inline container used to mark up a part of a text, or a part of a document.
+
+                The &lt;span&gt; tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+
+                The &lt;span&gt; tag is much like the &lt;div&gt; element, but &lt;div&gt; is a block-level element and &lt;span&gt; is an inline element.</p>
+            </div>
+            <code>
+              &lt;p&gt;My mother has &lt;span style=&quot;color:blue&quot;&gt;blue&lt;/span&gt; eyes.&lt;/p&gt;<br />
+
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;strong&gt;&lt;/strong&gt;</h2>
+              <p>	The &lt;strong&gt; tag is used to define text with strong importance. The content inside is typically displayed in bold.</p>
+            </div>
+            <code>&lt;strong&gt;This text is important!&lt;/strong&gt;
+            </code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;sup&gt;&lt;/sup&gt;</h2>
+              <p>	The &lt;sup&gt; tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>.</p>
+            </div>
+            <code>&lt;p&gt;This text contains &lt;sup&gt;superscript&lt;/sup&gt; text.&lt;/p&gt;</code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;title&gt;&lt;/title&gt;</h2>
+              <p>	The &lt;title&gt; tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+
+                The &lt;title&gt; tag is required in HTML documents!
+
+                The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.</p>
+            </div>
+            <code>&lt;head&gt;<br />
+              &nbsp;&nbsp;&lt;title&gt;HTML Elements Reference&lt;/title&gt;<br />
+              &lt;/head&gt;</code>
+          </li>
+          <li>
+            <div>
+              <h2 class="gs-csheet-tag">&lt;ul&gt;&lt;/ul&gt;</h2>
+              <p>The &lt;ul&gt; tag defines an unordered (bulleted) list.
+
+                Use the &lt;ul&gt; tag together with the &lt;li&gt; tag to create unordered lists.</p>
+            </div>
+            <code>&lt;ul&gt;<br />
+              &nbsp;&nbsp;&lt;li&gt;Coffee&lt;/li&gt;<br />
+              &nbsp;&nbsp;&lt;li&gt;Tea&lt;/li&gt;<br />
+              &nbsp;&nbsp;&lt;li&gt;Milk&lt;/li&gt;<br />
+              &lt;/ul&gt;</code>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+<footer class="gs-footer">&copy; All Rights Reserved. Gurpreet Kaur</footer>
+  <script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="assets/js/function.js"></script>
+</body>
+</html>
